@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+
+body {
+    background-color: aqua;
+}
+
+
+#heading2{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#heading3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-weight: 700;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+
+.box {
+
+    width: 10rem;
+    height: 10rem;
+    background-color: blue;
+    border: 2px solid red;
+
+
+}
+
+#box1 {
+    
+    background-color: cornflowerblue;
+
+}
+#box2 {
+
+background-color: darkmagenta;
+margin-top: -5rem;
+margin-left: 5rem;
+}
+
+#box3 {
+
+    background-color: orangered;
+    border: 2px solid green;
+}
+
+#heading4 {
+    display: inline;
+    background-color: deeppink;
+    width: 10rem;
+    height: 10rem;
+
+}
+#link2 {
+    background-color: hotpink;
+    display: block;
+    height: 5rem;
+}
+
+#link3 {
+    background-color: yellow;
+    display: inline-block;
+    
+}
+
+#link4 {
+    display: none;
+    visibility: hidden;
+
+}
+
+#card {
+    background-color: violet;
+}
+
+#relativebtn {
+    position: relative;
+    background-color: cyan;
+
+    bottom: 8.5rem;
+    left: 72rem;
+    
+}
+
+#absolutebtn {
+    
+    background-color: cyan;
+    position: absolute;
+    right: 1rem;
+    
+}
+
+
+#Whatsapp {
+    background-color: rgba(0, 128, 0, 0.692);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    cursor: pointer;
+
+}
+#whatsapp:hover {
+    background-color: blue;
+}
+
+#sticky {
+    background-color: red;
+    position: sticky;
+
+    top: 5rem;
+
+
+}

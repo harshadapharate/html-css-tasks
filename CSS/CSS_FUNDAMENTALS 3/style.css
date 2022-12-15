@@ -1,0 +1,35 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+
+    background-color: pink;
+}
+
+
+h1 {
+
+    background-color: darkblue ;
+    color: white;
+    margin: 10px;
+    
+}  
+
+
+#boxModel {
+    background-color: palegreen;
+    border: 2px solid gray;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+
+
+
+
+}

@@ -1,0 +1,86 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: aqua;
+}
+
+#px {
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
+
+/* em */
+/* 1em = 16px appro% */
+
+#emParent {
+    background-color: blue;
+}
+    
+
+#em1  {
+    background-color: red;
+}
+    
+
+#em2 {
+    background-color: purple;
+    font-size: 3em !important;
+}
+
+
+/* rem */
+
+#remParent {
+    background-color: blue;
+    font-size: 20px;
+}
+    
+
+#rem1  {
+    background-color: red;
+}
+    
+
+#rem2 {
+    background-color: purple;
+    font-size: 1em !important;
+}
+
+
+/* ..........................................*/
+
+
+#percentParent {
+    background-color: darkmagenta;
+    width: 500%;
+    height: 300px;
+}
+
+#percent {
+    background-color: yellow;
+    width: 50%;
+    height: 50px ;
+
+}
+
+/*...................*/
+
+#vh_vw_parent {
+    background-color: peru;
+    width: 50vw;
+    height: 50vh;
+}
+
+
+#vh_vw_child {
+    background-color: royalblue;
+    width: 70vw;
+    height: 30vh;
+}
+
+
+
+

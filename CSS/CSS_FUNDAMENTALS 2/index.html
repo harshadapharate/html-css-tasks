@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <style>
+
+        #parent1,
+        #parent2 {
+            background-color: palevioletred;
+        }
+        
+        #parent1 p {
+            background-color: aqua;
+        }
+
+        #parent2 >p {
+            background-color: aqua;
+        }
+
+        #parent2 + h1 {
+
+            background-color: red !important; 
+        }
+
+        #parent2 ~ h1 {
+            background-color: blueviolet
+            
+        }
+
+        #googlelink {
+            background-color: yellow
+            
+        }
+
+        #googlelink:hover {
+            background-color: green;
+            color: white;
+            padding: 10px;
+        }
+
+        #peudoElement > p {
+            background-color: brown;
+
+        }
+
+        #peudoElement > p::first-line {
+            background-color: brown;
+            font-size: 30px;
+
+        }
+
+        li:first-child {
+            background-color: peru;
+        }
+
+        li:last-child {
+            background-color: hotpink;
+        }
+
+        li:nth-child(3) {
+
+            background-color: cyan;
+
+        }
+
+
+        form {
+            background-color: darkorange;
+            padding: 20px;
+            
+        }
+
+        input {
+            padding: 10px;
+            width: 40%;
+            outline: none;
+
+        }
+
+        input[type="submit"] {
+            width: 15%;
+            background-color: blue;
+            font-weight: bold;
+            color: white;
+
+
+        }
+
+      
+     </style>
+</head>
+<body>
+    <div id="parent1">
+        <h1>learn css</h1>
+        <p>i am learning css</p>
+        <h1>learn css</h1>
+        <p> i am learning css</p>
+        <span>
+            learning css
+        </span>
+    </div>
+
+    <div id="parent2">
+        <h1>learn css</h1>
+        <p>i am learning css</p>
+        <h1>learn css</h1>
+        <p> i am learning css</p>
+        <span>
+            learning css
+        </span>
+    </div>
+
+    
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+
+    <p id="pseudoElements"
+
+    <p>
+        Prime Minister Narendra Modi unveiled India’s G20 presidency’s
+         logo, theme, and website. He said that this presidency is a matter of pride and indicative of 
+        global confidence in India.
+    </p>
+    <hr />
+    <hr />
+
+    <h1>Psuedo Classes & Elements</h1>
+
+    
+    <a href="https://google.com" id="googlelink">Open Google</a> 
+    <a href="https://facebook.com">Open facebook</a> 
+    <a href="https://insta.com">Open insta</a> 
+
+    <div id="peudoElements">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Blanditiis, at, esse temporibus quidem pariatur 
+            laboriosam neque fugiat magni aspernatur error nostrum
+             quisquam a accusamus tempora quia labore nesciunt mollitia eum veniam libero. Aut, sapiente error mollitia molestiae, nobis delectus porro ea harum eveniet corporis maiores numquam id nulla ab voluptate?
+        </p>
+
+        <ul>
+            <li>hey</li>
+            <li>hey</li>
+            <li>hey</li>
+            <li>hey</li>
+            <li>hey</li>
+        </ul>
+
+        <form>
+            <input type="text" placeholder="Enter Your Name">
+            <input type="password" placeholder="Password">
+            <input type="submit" value="Login">
+        </form>
+
+
+    </div>
+
+
+
+
+   </body>
+</html>

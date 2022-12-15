@@ -1,0 +1,43 @@
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+body {
+    background-color: blue;
+}
+
+#Type::after {
+    content: "Dekstop Computers";
+
+}
+
+/*........................*/
+@media only screen and (min-width:600px) and (max-width: 720px) {
+    body {
+        background-color: red;
+    }
+
+    #Type::after {
+        content: "Tablet Handsets";
+
+    }
+}
+
+/*small mobile device*/
+@media only screen and (max-width:600px) {
+    body {
+        background-color: violet;
+    }
+
+    #Type::after {
+        content: "Mobile And Small Screen Devices";
+
+    }
+}

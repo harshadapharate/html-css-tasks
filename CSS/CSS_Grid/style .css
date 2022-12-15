@@ -1,0 +1,40 @@
+body {
+
+    background-color: aqua;
+}
+
+ #gridContainer {
+    background-color: blue;
+    height: 80vh;
+    padding: 1rem;
+
+     
+    display: grid;
+   /* grid-template-columns: 49% 25% 25%; */
+   grid-template-columns: 2fr 1fr 1fr;
+    gap: 0.5rem;
+
+ }
+
+
+
+ .box {
+    background-color: chartreuse;
+    color: white;
+    font-size: 2rem;
+ }
+ 
+
+ #box10 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 3;
+    grid-row-end: 5;
+ }
+
+
+ #box7 {
+    grid-column: 3/4;
+    grid-row: 1/7 ;
+ }

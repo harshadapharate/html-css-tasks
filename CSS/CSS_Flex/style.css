@@ -1,0 +1,127 @@
+.boxcontainer {
+    background-color: aqua;
+    padding: 1rem;
+    display: flex;
+    font-size: 20px;
+}
+
+.class {
+    background-color: slateblue;
+    (254, 1, 191);
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+    width: 4rem;
+    height: 4rem;
+}
+
+#boxes-1 {
+    flex-direction: column;
+}
+
+#boxes-2 {
+    flex-direction: row-reverse;
+}
+
+#boxes-3 {
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+/*for rows*/
+#boxes1 {
+    /* background-color: blue;
+    padding: 1rem;
+    display: flex;*/
+    flex-direction: row;
+    display: flex;
+    /*flex-direction:column-reverse;
+    flex-direction: row-reverse;*/
+    justify-content: space-around;
+}
+
+#boxes2 {
+    justify-content: space-evenly;
+}
+
+#boxes3 {
+    justify-content: space-between;
+}
+
+/*for columns*/
+#boxes4 {
+    height: 85vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#boxes5 {
+    height: 85vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#boxes6 {
+    height: 85vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#boxes7 {
+    height: 80vh;
+    align-items: flex-start;
+}
+
+#boxes8 {
+    height: 80vh;
+    align-items: center;
+}
+
+#boxes9 {
+    height: 80vh;
+    align-items: flex-end;
+}
+
+/*align item with direction column*/
+
+#boxes10 {
+    height: 80vh;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#boxes11 {
+    height: 80vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+#boxes12 {
+    height: 80vh;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/*Order for order property*/
+#box1 {
+    order: 2;
+}
+
+#box2 {
+    order: 5;
+}
+
+#box3 {
+    order: 4;
+}
+
+#box4 {
+    order: 3;
+}
+
+#box5 {
+    order: 6;
+}
+
+
+/*align items with flexx direction row*/
